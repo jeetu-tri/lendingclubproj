@@ -2,7 +2,7 @@ import sys
 from lib import DataManipulation, DataReader, Utils, logger
 from pyspark.sql.functions import *
 from lib.logger import Log4j
-
+print('heelp')
 if __name__ == '__main__':
 
     if len(sys.argv) < 2:
